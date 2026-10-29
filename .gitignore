@@ -1,0 +1,41 @@
+﻿# ===== 依赖 / 构建产物 =====
+**/node_modules/
+**/dist/
+**/bin/
+**/obj/
+*.exe
+*.pdb
+*.mp4
+*.mov
+
+# ===== Unity 工程（只保留 Assets / ProjectSettings / Packages 源码）=====
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.unitypackage
+.vs/
+.idea/
+
+# ===== 编辑器 / 工具缓存 =====
+**/.codely-cli*
+**/.codely-cli/**
+*.db
+.vscode/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db

@@ -1,19 +1,47 @@
 {
-  "seq": 1,
+  "seq": 5,
   "issues": [
+    {
+      "id": "ISS-000004",
+      "title": "箱子",
+      "description": "箱子表面出现破损",
+      "priority": "high",
+      "status": "resolved",
+      "position": {
+        "x": -3.772904634475708,
+        "y": 1.2600406408309937,
+        "z": 5.5
+      },
+      "createdAt": "2026-10-29T18:06:17+08:00",
+      "updatedAt": "2026-10-29T18:45:29+08:00"
+    },
+    {
+      "id": "ISS-000005",
+      "title": "test",
+      "description": "此库存在安全隐患",
+      "priority": "high",
+      "status": "in_progress",
+      "position": {
+        "x": -3.5350301265716553,
+        "y": 1.63736093044281,
+        "z": 5.5
+      },
+      "createdAt": "2026-10-29T18:47:54+08:00",
+      "updatedAt": "2026-10-29T18:48:05+08:00"
+    },
     {
       "id": "ISS-000001",
       "title": "管道",
       "description": "管道有问题",
       "priority": "high",
-      "status": "open",
+      "status": "resolved",
       "position": {
         "x": 1.1975783109664917,
         "y": 1.285614252090454,
         "z": 2.9089221954345703
       },
       "createdAt": "2026-10-29T01:48:58+08:00",
-      "updatedAt": "2026-10-29T01:48:58+08:00"
+      "updatedAt": "2026-10-29T18:45:41+08:00"
     }
   ]
 }

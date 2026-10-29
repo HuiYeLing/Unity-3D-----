@@ -14,7 +14,8 @@ var validStatuses = map[string]bool{"open": true, "in_progress": true, "resolved
 
 func writeJSON(w http.ResponseWriter, code int, v any) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
-	_ = json.NewEncoder(w).Encode(v)//把指针v指向的值编码为JSON并写入HTTP响应体中
+	w.WriteHeader(code)                  //必须显式写状态码，否则永远返回默认 200
+	_ = json.NewEncoder(w).Encode(v) //把指针v指向的值编码为JSON并写入HTTP响应体中
 }
 
 // 统一错误格式 {"error": "...", "message": "..."}，Unity 端会取 message 显示给用户
